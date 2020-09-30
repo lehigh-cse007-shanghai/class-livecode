@@ -11,5 +11,12 @@ public class AssignValues {
     // keyword final, example avec PI puis Math.PI
     final double PI = Math.PI;
 
+    // a is 3 and b is 4
+    int swap;
+    swap = a;
+    a = b;
+    b = swap;
+
+    System.out.println(a + " " + b);
   }
 }
